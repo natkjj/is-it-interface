@@ -1,0 +1,250 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    background-color: rgb(20, 25, 36);
+}
+.SQ-back{
+   width: 475px;
+   height: 245px;
+   background-color: lightsteelblue;
+   top: 475px;
+   left: 775px; 
+   border: 10px solid rgb(255, 0, 200);
+}
+.SQ-1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 136);
+    top: 500px;
+    left: 800px;
+}
+.SQ-1:hover{
+    
+    background-color: rgb(9, 136, 255);
+}
+
+.SQ-2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 255, 0);
+    top: 500px;
+    left: 915px;   
+}
+.SQ-2:hover{
+    
+    background-color: rgb(206, 9, 255);
+}
+.SQ-3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(80, 135, 255);
+    top: 500px;
+    left: 1030px;
+}
+.SQ-3:hover{
+    
+    background-color: rgb(29, 255, 9);
+}
+.SQ-4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    top: 500px;
+    left: 1145px;
+}
+.SQ-4:hover{
+    
+    background-color: rgb(255, 218, 9);
+}
+.SQ-5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(4, 0, 255);
+    top: 615px;
+    left: 800px;
+}
+.SQ-5:hover{
+    background-color: rgb(148, 255, 9);
+    filter: blur(0.4);
+}
+.SQ-6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(243, 83, 222);
+    top: 615px;
+    left: 915px;   
+}
+.SQ-6:hover{
+    
+    background-color: rgb(255, 251, 9);
+}
+.SQ-7 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 136, 0);
+    top: 615px;
+    left: 1030px;
+}
+.SQ-7:hover{
+    
+    background-color: rgb(255, 255, 255);
+}
+.SQ-8 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(3, 22, 128);
+    top: 615px;
+    left: 1145px;
+}
+.SQ-8:hover{
+    
+    background-color: rgb(136, 9, 255);
+}
+
+
+
+.slide-back-1 {
+    width: 100px;
+    height: 410px;
+    background-color: rgb(221, 160, 221, 0.6);
+    border-radius: 5%;
+    top: 25px;
+    left: 774px;
+}
+.slide-back-2 {
+    width: 100px;
+    height: 410px;
+    background-color: rgb(221, 160, 221, 0.6);
+    border-radius: 5%;
+    top: 25px;
+    left: 900px;
+}
+
+.oval-1{
+    width: 150px;
+    height: 45px;
+    background-color: yellow;
+    top: 90px;
+    left: 810px;
+    border-radius: 50%;
+    filter: blur(20px);
+    
+}
+.oval-2{
+    width: 150px;
+    height: 45px;
+    background-color: yellow;
+    top: 220px;
+    left: 810px;
+    border-radius: 50%;
+    filter: blur(20px);
+
+}
+
+.oval-3{
+    width: 150px;
+    height: 45px;
+    background-color: yellow;
+    top: 340px;
+    left: 810px;
+    border-radius: 50%;
+    filter: blur(20px);
+}
+.slide-1 {
+    width: 185px;
+    height: 45px;
+    background-color: paleturquoise;
+    border-radius: 5%;
+    top: 50px;
+    left: 795px;
+    animation: moveSL 1.3s infinite alternate;
+}
+
+@keyframes moveSL {
+    from {
+        top: 45px;
+    } to {
+        top: 345px;
+    }
+}
+
+.thing-1{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(0, 247, 255);
+    top: 140px;
+    left: 1040px;
+    border-radius: 50%;
+    
+    
+}
+.thing-1:hover{
+    transform: rotate(-40deg) scale(8, 2);
+    filter: blur(10px);
+}
+
+.top-part {
+    width: 45px;
+    height: 900px;
+    background: linear-gradient(0deg, rgba(255,0,0,0.5032387955182073) 13%, rgba(198,85,255,0.676908263305322) 60%, rgba(0,255,250,0.14189425770308128) 100%);
+animation: part-move 3.5s infinite alternate;
+
+}
+
+@keyframes part-move {
+    from {
+        left: 0px;
+    } to {
+        left: 1365px;
+    }
+}
+
+.thing-2 {
+    width: 60px;
+    height: 60px;
+    background-color: slateblue;
+    top: 60px;
+    left: 345px;
+    border-radius: 50%;
+    -webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 21px 24px 26px -2px rgba(0,255,78,0), 21px 24px 26px -2px rgba(0,255,78,0.82), -25px -14px 26px -2px rgba(255,0,220,0.82), -26px 42px 15px -2px rgba(8,14,242,0.82), 34px -26px 32px 50px rgba(255,197,3,0.81); 
+    box-shadow: 4px -4px 15px 0px #FF1F1F, 21px 24px 26px -2px rgba(0,255,78,0), 21px 24px 26px -2px rgba(0,255,78,0.82), -25px -14px 26px -2px rgba(255,0,220,0.82), -26px 42px 15px -2px rgba(8,14,242,0.82), 34px -26px 32px 50px rgba(255,197,3,0.81);
+    border: 5px dashed rgb(255, 255, 255);
+
+animation: grad 5s infinite alternate;
+
+}
+
+@keyframes grad {
+    from {
+        width: 60px; height: 60px;
+        opacity: 1;
+    } to {
+        width: 400px; height: 600px;
+        opacity: 0;
+    }
+}
+
+
+.yoyo {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    top: 605px;
+    left: 100px; 
+}
+.yoyo:hover {
+    width: 1500px; height: 1000px;
+    top: 10px;
+    left: 10px;
+}
+    
